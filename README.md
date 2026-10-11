@@ -140,6 +140,7 @@ Create a draft `journals` row and two `journal_lines` rows, then call `select pu
 
 
 ## Included validation tests
+test
 
 The test suite includes INR paise conversion/formatting, balanced double-entry journal validation, and basic seva booking request schema validation. These are unit tests; they do not replace database integration tests, payment webhook tests, concurrency tests, or authorization tests.
 =======
