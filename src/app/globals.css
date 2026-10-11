@@ -18,4 +18,16 @@ h2 { margin-top:2rem; }
 .card { padding:1.2rem; border:1px solid var(--border); border-radius:1rem; background:white; }
 footer { border-top:1px solid var(--border); padding:1.5rem; text-align:center; color:var(--muted); background:white; }
 select { padding:.45rem; border:1px solid var(--border); border-radius:.5rem; background:white; }
+a, .button { transition:color .15s ease, background-color .15s ease, border-color .15s ease; }
+a:hover { color:var(--brand); }
+.nav a:hover { text-decoration:underline; text-underline-offset:.2em; }
+.button:hover { background:#5f210e; border-color:#5f210e; color:white; }
+.button.secondary:hover { background:#fff7ed; color:var(--brand); }
+:where(a, select):focus-visible, .button:focus-visible {
+  outline:3px solid #c2410c;
+  outline-offset:3px;
+}
+@media (prefers-reduced-motion:reduce) {
+  a, .button { transition:none; }
+}
 @media (max-width:600px) { .site-header { align-items:flex-start; } .nav { gap:.65rem; } }
