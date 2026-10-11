@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Temple Management System — MVP scaffold
 
 Bilingual (Kannada + English) temple portal using Next.js, TypeScript, Supabase/PostgreSQL, and GitHub-to-Vercel deployment.
