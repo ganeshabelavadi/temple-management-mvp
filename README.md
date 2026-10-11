@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Temple Management System — MVP scaffold
 
 Bilingual (Kannada + English) temple portal using Next.js, TypeScript, Supabase/PostgreSQL, and GitHub-to-Vercel deployment.
@@ -141,3 +142,6 @@ Create a draft `journals` row and two `journal_lines` rows, then call `select pu
 ## Included validation tests
 
 The test suite includes INR paise conversion/formatting, balanced double-entry journal validation, and basic seva booking request schema validation. These are unit tests; they do not replace database integration tests, payment webhook tests, concurrency tests, or authorization tests.
+=======
+# temple-management-mvp
+>>>>>>> 5b87c47558a4f799a130f49f3f6b1c79913044a7
